@@ -392,14 +392,14 @@
     "absolutePath": "/Users/yosukeochiai/code/timecoin/testsale/contracts/yscoin.sol",
     "exportedSymbols": {
       "YsCoin": [
-        104
+        62
       ]
     },
-    "id": 105,
+    "id": 63,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 91,
+        "id": 49,
         "literals": [
           "solidity",
           "^",
@@ -412,10 +412,10 @@
       {
         "absolutePath": "zeppelin-solidity/contracts/token/ERC20/MintableToken.sol",
         "file": "zeppelin-solidity/contracts/token/ERC20/MintableToken.sol",
-        "id": 92,
+        "id": 50,
         "nodeType": "ImportDirective",
-        "scope": 105,
-        "sourceUnit": 857,
+        "scope": 63,
+        "sourceUnit": 815,
         "src": "26:67:2",
         "symbolAliases": [],
         "unitAlias": ""
@@ -426,51 +426,51 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 93,
+              "id": 51,
               "name": "MintableToken",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 856,
+              "referencedDeclaration": 814,
               "src": "114:13:2",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_MintableToken_$856",
+                "typeIdentifier": "t_contract$_MintableToken_$814",
                 "typeString": "contract MintableToken"
               }
             },
-            "id": 94,
+            "id": 52,
             "nodeType": "InheritanceSpecifier",
             "src": "114:13:2"
           }
         ],
         "contractDependencies": [
-          590,
-          686,
-          729,
-          761,
-          856,
-          1102
+          548,
+          644,
+          687,
+          719,
+          814,
+          1060
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 104,
+        "id": 62,
         "linearizedBaseContracts": [
-          104,
-          856,
-          590,
-          1102,
-          686,
-          729,
-          761
+          62,
+          814,
+          548,
+          1060,
+          644,
+          687,
+          719
         ],
         "name": "YsCoin",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 97,
+            "id": 55,
             "name": "name",
             "nodeType": "VariableDeclaration",
-            "scope": 104,
+            "scope": 62,
             "src": "132:30:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -479,7 +479,7 @@
               "typeString": "string"
             },
             "typeName": {
-              "id": 95,
+              "id": 53,
               "name": "string",
               "nodeType": "ElementaryTypeName",
               "src": "132:6:2",
@@ -491,7 +491,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "595320434f494e",
-              "id": 96,
+              "id": 54,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -510,10 +510,10 @@
           },
           {
             "constant": false,
-            "id": 100,
+            "id": 58,
             "name": "symbol",
             "nodeType": "VariableDeclaration",
-            "scope": 104,
+            "scope": 62,
             "src": "166:28:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -522,7 +522,7 @@
               "typeString": "string"
             },
             "typeName": {
-              "id": 98,
+              "id": 56,
               "name": "string",
               "nodeType": "ElementaryTypeName",
               "src": "166:6:2",
@@ -534,7 +534,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "595343",
-              "id": 99,
+              "id": 57,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -553,10 +553,10 @@
           },
           {
             "constant": false,
-            "id": 103,
+            "id": 61,
             "name": "decimals",
             "nodeType": "VariableDeclaration",
-            "scope": 104,
+            "scope": 62,
             "src": "198:26:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -565,7 +565,7 @@
               "typeString": "uint8"
             },
             "typeName": {
-              "id": 101,
+              "id": 59,
               "name": "uint8",
               "nodeType": "ElementaryTypeName",
               "src": "198:5:2",
@@ -577,7 +577,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "3138",
-              "id": 102,
+              "id": 60,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -595,7 +595,7 @@
             "visibility": "public"
           }
         ],
-        "scope": 105,
+        "scope": 63,
         "src": "95:132:2"
       }
     ],
@@ -605,14 +605,14 @@
     "absolutePath": "/Users/yosukeochiai/code/timecoin/testsale/contracts/yscoin.sol",
     "exportedSymbols": {
       "YsCoin": [
-        104
+        62
       ]
     },
-    "id": 105,
+    "id": 63,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 91,
+        "id": 49,
         "literals": [
           "solidity",
           "^",
@@ -625,10 +625,10 @@
       {
         "absolutePath": "zeppelin-solidity/contracts/token/ERC20/MintableToken.sol",
         "file": "zeppelin-solidity/contracts/token/ERC20/MintableToken.sol",
-        "id": 92,
+        "id": 50,
         "nodeType": "ImportDirective",
-        "scope": 105,
-        "sourceUnit": 857,
+        "scope": 63,
+        "sourceUnit": 815,
         "src": "26:67:2",
         "symbolAliases": [],
         "unitAlias": ""
@@ -639,51 +639,51 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 93,
+              "id": 51,
               "name": "MintableToken",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 856,
+              "referencedDeclaration": 814,
               "src": "114:13:2",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_MintableToken_$856",
+                "typeIdentifier": "t_contract$_MintableToken_$814",
                 "typeString": "contract MintableToken"
               }
             },
-            "id": 94,
+            "id": 52,
             "nodeType": "InheritanceSpecifier",
             "src": "114:13:2"
           }
         ],
         "contractDependencies": [
-          590,
-          686,
-          729,
-          761,
-          856,
-          1102
+          548,
+          644,
+          687,
+          719,
+          814,
+          1060
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 104,
+        "id": 62,
         "linearizedBaseContracts": [
-          104,
-          856,
-          590,
-          1102,
-          686,
-          729,
-          761
+          62,
+          814,
+          548,
+          1060,
+          644,
+          687,
+          719
         ],
         "name": "YsCoin",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 97,
+            "id": 55,
             "name": "name",
             "nodeType": "VariableDeclaration",
-            "scope": 104,
+            "scope": 62,
             "src": "132:30:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -692,7 +692,7 @@
               "typeString": "string"
             },
             "typeName": {
-              "id": 95,
+              "id": 53,
               "name": "string",
               "nodeType": "ElementaryTypeName",
               "src": "132:6:2",
@@ -704,7 +704,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "595320434f494e",
-              "id": 96,
+              "id": 54,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -723,10 +723,10 @@
           },
           {
             "constant": false,
-            "id": 100,
+            "id": 58,
             "name": "symbol",
             "nodeType": "VariableDeclaration",
-            "scope": 104,
+            "scope": 62,
             "src": "166:28:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -735,7 +735,7 @@
               "typeString": "string"
             },
             "typeName": {
-              "id": 98,
+              "id": 56,
               "name": "string",
               "nodeType": "ElementaryTypeName",
               "src": "166:6:2",
@@ -747,7 +747,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "595343",
-              "id": 99,
+              "id": 57,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -766,10 +766,10 @@
           },
           {
             "constant": false,
-            "id": 103,
+            "id": 61,
             "name": "decimals",
             "nodeType": "VariableDeclaration",
-            "scope": 104,
+            "scope": 62,
             "src": "198:26:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -778,7 +778,7 @@
               "typeString": "uint8"
             },
             "typeName": {
-              "id": 101,
+              "id": 59,
               "name": "uint8",
               "nodeType": "ElementaryTypeName",
               "src": "198:5:2",
@@ -790,7 +790,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "3138",
-              "id": 102,
+              "id": 60,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -808,7 +808,7 @@
             "visibility": "public"
           }
         ],
-        "scope": 105,
+        "scope": 63,
         "src": "95:132:2"
       }
     ],
@@ -827,5 +827,5 @@
     }
   },
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-06-16T09:00:25.007Z"
+  "updatedAt": "2018-06-18T05:35:35.671Z"
 }
