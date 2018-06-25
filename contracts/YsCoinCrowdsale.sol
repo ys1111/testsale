@@ -17,6 +17,5 @@ contract YsCoinCrowdsale is TimedCrowdsale, MintedCrowdsale {
   public
   Crowdsale(_rate, _wallet, _token)
   TimedCrowdsale(_openingTime, _closingTime){
-
   }
 }
