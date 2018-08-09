@@ -9,7 +9,7 @@ deploy
 ```
 rinkeby test network // you must have ether on test network
 $ truffle compile
-$ truffle migrate --networrk rinkeby
+$ truffle migrate --network rinkeby
 
 web3VM
 $ truffle compile
