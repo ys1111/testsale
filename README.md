@@ -1,15 +1,15 @@
 before deploy
 ```
 $ touch .env
-$ echo>>MNEMONIC="あなたのイーサリアムアカウントのニーモニック"
-$ echo>>INFURA_ACCESS_TOKEN="INFURAで取得したアクセストークン"
+$ echo MNEMONIC="あなたのイーサリアムアカウントのニーモニック" > .env
+$ echo INFURA_ACCESS_TOKEN="INFURAで取得したアクセストークン" > .env
 ```
 
 deploy 
 ```
 rinkeby test network // you must have ether on test network
 $ truffle compile
-$ truffle migrate --networrk rinkeby
+$ truffle migrate --network rinkeby
 
 web3VM
 $ truffle compile
