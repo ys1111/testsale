@@ -1,12 +1,12 @@
 pragma solidity ^0.4.17;
 
-import './YsCoin.sol';
+import './Coin.sol';
 import 'zeppelin-solidity/contracts/crowdsale/emission/MintedCrowdsale.sol';
 import 'zeppelin-solidity/contracts/crowdsale/validation/TimedCrowdsale.sol';
 
 
-contract YsCoinCrowdsale is TimedCrowdsale, MintedCrowdsale {
-  function YsCoinCrowdsale
+contract CoinCrowdsale is TimedCrowdsale, MintedCrowdsale {
+  function CoinCrowdsale
   (
       uint256 _openingTime,
       uint256 _closingTime,

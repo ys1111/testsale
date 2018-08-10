@@ -1,5 +1,8 @@
-const YsCoinCrowdsale = artifacts.require('../contracts/YsCoinCrowdsale.sol');
-const YsCoin = artifacts.require('../contracts/YsCoin.sol');
+// あなたのコントラクトファイル名に書き換えてください
+const CoinCrowdsale = artifacts.require('../contracts/CoinCrowdsale.sol');
+
+// あなたのコントラクトファイル名に書き換えてください
+const Coin = artifacts.require('../contracts/Coin.sol');
 
 module.exports = async function(deployer, network, accounts) {
   let openingTime;
@@ -8,29 +11,33 @@ module.exports = async function(deployer, network, accounts) {
   web3.eth.getBlock('latest', ((error, result) => { 
      if (!error) {
        currentTime = result.timestamp
+       // 今の時間から120秒あとにスタートさせます
        return openingTime = result.timestamp + 120
      } else {
        console.error(error)
      }
-   } )); //two secs in the future
+   } ));
   
   const rate = new web3.BigNumber(1000);
-  const wallet = accounts[1] || '0xaae900BAe6d741b3cD4aD9a0b07A21413420Ce0c';
+
+  // もしtestnet, mainnetにデプロイするときはあなたのアドレスを入力してください
+  const wallet = accounts[1] || 'YOUR_ETH_ADDRESS';
+  
   return deployer
       .then(() => {
-          return deployer.deploy(YsCoin); 
+          return deployer.deploy(Coin); 
       })
       .then(async() => {
           const closingTime = await openingTime + 86400 * 20;
-          await console.log(openingTime, closingTime, YsCoin.address, rate, wallet)
+          await console.log(openingTime, closingTime, Coin.address, rate, wallet)
           await console.log(currentTime)
           return deployer.deploy(
-            YsCoinCrowdsale,
+            CoinCrowdsale,
             await openingTime,
             await closingTime,
             rate,
             wallet,
-            YsCoin.address
+            Coin.address
           );
       });
 };
