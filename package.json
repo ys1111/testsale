@@ -16,5 +16,8 @@
     "ethereumjs-wallet": "^0.6.0",
     "truffle-hdwallet-provider": "0.0.3",
     "zeppelin-solidity": "^1.7.0"
+  },
+  "devDependencies": {
+    "dotenv": "^6.0.0"
   }
 }
